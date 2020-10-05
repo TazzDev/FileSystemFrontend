@@ -1,0 +1,23 @@
+//normalizing everything on different browsers
+
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+//setting a global font family and fallbacks to 'sans-serif'
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+//importing partials
+
+@import './components/header';
+@import './components/folderview';
+@import './components/folder';
+@import './components/searchbar';

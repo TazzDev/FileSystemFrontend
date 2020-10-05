@@ -1,0 +1,25 @@
+#search-bar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+#search-bar input {
+    width: 60%;
+    padding: 0.5%;
+    margin-right: 2%;
+}
+
+#search-bar button {
+    width: 8%;
+    height: 4vh;
+    border: transparent;
+    background: linear-gradient(rgb(120, 147, 170),rgb(120, 147, 206));
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Roboto',sans-serif;
+}
